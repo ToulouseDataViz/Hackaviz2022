@@ -1,0 +1,8 @@
+nom colonne,description,type_valeur,exemple
+collecteur,code de l’organisme collecteur sous forme d’acronyme,chaîne de caractères,SACEM
+annee,année du projet recevant la collecte des droits d’auteur,entier,2017
+aide,type de soutien,chaîne de caractères,diffusion du spectacle vivant
+beneficiaire,nom du bénéficiaire,chaîne de caractères,03H50
+projet,description du projet,chaîne de caractères,Tournées et showcases hors France - musiques actuelles et jazz - Marianne Dissard
+montant,montant reçu en euros,entier,1500
+oeuvre,type d’oeuvre d’art soutenue,chaîne de caractères,Concert

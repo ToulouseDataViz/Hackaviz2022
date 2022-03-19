@@ -1,0 +1,7 @@
+nom colonne,description,type_valeur,exemple
+collecteur,code de l’organisme collecteur sous forme d’acronyme,chaîne de caractères,SACEM
+type_daide,type de soutien,chaîne de caractères,diffusion du spectacle vivant
+nb_aides_2016,nombre d'aides délivrées pour l'année 2016,entier,160
+montant_2016,montant total en euros des aides délivrées en 2016,entier,1725108
+"nb_aides_2017, montant_2017, ...",  idem pour les années suivantes,,223
+

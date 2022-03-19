@@ -1,0 +1,9 @@
+colonne,description,type_valeur,exemple
+collecteur,code de l’organisme collecteur sous forme d’acronyme,chaîne de caractères,SACEM
+libelle,nom complet de l’organisme,chaîne de caractères,"Société Des Auteurs, Compositeurs Et Éditeurs De Musique"
+œuvre,type d’œuvre d’art couvert par l’organisme,chaîne de caractères,Musique
+date_creation,année de création de l’organisme,entier,1851
+membres,artistes ou producteurs membres de l’organisme,chaîne de caractères,"arrangeur,auteur,auteur de doublage sous titrage,auteurs réalisateur,compositeur,éditeur"
+nb_membres,nombre de membres,entier,182520
+nb_membres_annee,année où ce nombre de membres a été relevé,entier,2021
+URL,adresse du site Internet,chaîne de caractères,https://www.sacem.fr/
