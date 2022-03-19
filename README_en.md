@@ -18,7 +18,7 @@ Not speaking english? La [version française](README.md) ici.
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
 Nina Paley, mars 2011](images/ME_338_YouMayBeRight2.png)
 
-We offer you in a new dataset from the [AidesCreation.org](http://aidescreation.org/consultation-aides_culturelles_versees_base_actions_soutenues-1.html) site. This site provides a database about collection and distribution of [private copying levy](https://en.wikipedia.org/wiki/Private_copying_levy) fundings done by several [copyright collecting society or collective management organizations](https://en.wikipedia.org/wiki/Copyright_collective).
+We offer you a new dataset from the [AidesCreation.org](http://aidescreation.org/consultation-aides_culturelles_versees_base_actions_soutenues-1.html) site. This site provides a database about the collection and distribution of [private copying levy](https://en.wikipedia.org/wiki/Private_copying_levy) fundings done by several [copyright collecting societies or collective management organizations](https://en.wikipedia.org/wiki/Copyright_collective).
 
 This dataset is spread over three files. It is possible to make beautiful visualizations from just one of these files. You can also combine them, but the most beautiful story might not need all this data.
 
@@ -26,14 +26,13 @@ This year, no geographical data, but data in text form. This is an opportunity t
 
 Find the rules and evaluation methods on the [Hackaviz rules page](https://toulouse--dataviz-fr.translate.goog/hackaviz/reglement/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp) of the [Toulouse DataViz (TDV) association](https://toulouse--dataviz-fr.translate.goog/association/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp).
 
-Do not hesitate to contact us on the Toulouse DataViz [discord](https://discord.com/invite/RbTR4jKRp9) to discuss between participants, if you need help about the data or to report errors in the dataset.
+Do not hesitate to contact us on the Toulouse DataViz [discord](https://discord.com/invite/RbTR4jKRp9) to discuss between participants, if you need help with the data, or to report errors in the dataset.
 
 Good luck!
 
 # Dataset overview
 
-Each dataset is available as two files, one as
-form of tabular data in the format
+Each dataset is available as two files, one as a form of tabular data in the format
 [`.csv`](https://fr.wikipedia.org/wiki/Comma-separated_values) for
 your favorite data processing tool, and the other in open format
 [`.xlsx`](https://fr.wikipedia.org/wiki/XLSX) for Microsoft Excel,
@@ -47,12 +46,12 @@ under …".
 
 | Data file                                                                                                                               | Content                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [`actions-culturelles-souttenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.csv) | cultural actions supported by the private copying levy    |
-| [`aggregation_by_organism.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.csv)             | summary by collecting organization and by type of support |
+| [`actions-culturelles-soutenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.csv) | cultural actions supported by the private copying levy    |
+| [`aggregation_par_organisme.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.csv)             | summary by collecting organization and by type of support |
 | [`collecteurs.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.csv)                                      | description of collecting organizations                   |
 
 An archive (`.zip`) is also available for
-[download](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/data.zip)
+[downloading](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/data.zip)
 all data.
 
 - Files are encoded in UTF-8.
@@ -75,7 +74,7 @@ all data.
 
 - We have taken care to unify the name of the `collecteur` column
   files so you can make
-  [joins](https://en.wikipedia.org/wiki/Relational_algebra#Joins_and_join-like_operators).
+  [joins](https://en.wikipedia.org/wiki/Join_(SQL)).
 - You have no obligation to merge these files: remember
   the story you want to tell is an important facet of a good dataviz!
 - To join two `csv` you can use template
@@ -139,7 +138,7 @@ This description is available as a `.csv` file
 | montant      | amount received in euros                       | integer          | 1500                                                                              |
 | oeuvre       | type of artwork supported                      | character string | Concert                                                                           |
 
-## Description of the `aggregation_par_organisation.csv` file
+## Description of the `aggregation_par_organisme.csv` file
 
 Summary by collecting organizations and by type of support, year by year
 
@@ -149,7 +148,7 @@ Summary by collecting organizations and by type of support, year by year
   the total amount paid.
 
 This description is available as a `.csv` file
-[meta_aggregation_par_organisation.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_agregation_par_organisation.csv).
+[meta_aggregation_par_organisme.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_agregation_par_organisme.csv).
 
 | column name                    | description                                      | type_value       | example                       |
 | :----------------------------- | :----------------------------------------------- | :--------------- | :---------------------------- |

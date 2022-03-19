@@ -69,7 +69,7 @@ toutes les données.
 - Les fichiers sont encodés en UTF-8.
 - Les fichiers `csv` utilisent le séparateur de colonne “`,`” et le
   caractère décimal “`.`”.
-- Ces `csv` ont été exportés depuis à un paramètre régional anglais.
+- Ces `csv` ont été exportés depuis un paramètre régional anglais.
   Pensez à modifier les paramètres d’import de votre logiciel préféré
   \!
 - Si vous avez des difficultés à importer ces `csv`, nous vous
@@ -98,7 +98,7 @@ toutes les données.
 
 ## Format des valeurs
 
-- Les montants ont été arrondis à l’euro prêt.
+- Les montants ont été arrondis à l’euro près.
 - Les dates sont des années au format AAAA.
 
 # Description détaillée des données
@@ -180,7 +180,7 @@ Cette description est disponible sous forme de fichier `.csv`
 Description des organismes collecteurs
 
 - Ce fichier contient la description des organismes collecteurs.
-- Les membres d’un organisme sont les artistes couvertes par cet
+- Les membres d’un organisme sont les artistes couverts par cet
   organisme. Ils sont classés par ordre alphabétique et sont séparés
   par une virgule.
 
@@ -212,7 +212,7 @@ Cette description est disponible sous forme de fichier `.csv`
 # Historique des versions
 
 - Décembre 2021: consolidation des fichiers et génération du readme et
-  export sous R et Visual Studio Code
+  export sous R et Visual Studio Code.
 
 # Conditions générales d’utilisation
 
