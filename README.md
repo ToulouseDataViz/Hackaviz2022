@@ -8,7 +8,7 @@
 
 # Hackaviz 2022 : financement par la copie privée en France.
 
-Not speaking french, please find the [english version](README_en.md)?
+Not speaking french? Please find the [english version](README_en.md).
 
 ![Mimi and Eunice, [You may be
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
