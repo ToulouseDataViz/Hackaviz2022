@@ -44,11 +44,11 @@ under …".
 
 ## CSV files
 
-| Data file                                                                                                                               | Content                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [`actions-culturelles-soutenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.csv) | cultural actions supported by the private copying levy    |
-| [`aggregation_par_organisme.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.csv)             | summary by collecting organization and by type of support |
-| [`collecteurs.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.csv)                                      | description of collecting organizations                   |
+| Data file                                                                                                                              | Content                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [`actions_culturelles_soutenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions_culturelles_soutenues.csv) | cultural actions supported by the private copying levy    |
+| [`aggregation_par_organisme.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.csv)          | summary by collecting organization and by type of support |
+| [`collecteurs.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.csv)                                     | description of collecting organizations                   |
 
 An archive (`.zip`) is also available for
 [downloading](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/data.zip)
@@ -66,7 +66,7 @@ all data.
 
 | Data file                                                                                                                                | Content                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [`actions-culturelles-soutenues.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.xlsx) | cultural actions supported by the private copying levy    |
+| [`actions_culturelles_soutenues.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions_culturelles_soutenues.xlsx) | cultural actions supported by the private copying levy    |
 | [`agregation_par_organisme.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.xlsx)           | summary by collecting organization and by type of support |
 | [`collecteurs.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.xlsx)                                     | description of collecting organizations                   |
 
@@ -74,11 +74,11 @@ all data.
 
 - We have taken care to unify the name of the `collecteur` column
   files so you can make
-  [joins](https://en.wikipedia.org/wiki/Join_(SQL)).
+  [joins](<https://en.wikipedia.org/wiki/Join_(SQL)>).
 - You have no obligation to merge these files: remember
   the story you want to tell is an important facet of a good dataviz!
 - To join two `csv` you can use template
-  [ObservableHQ](https://ressources.toulouse-dataviz.fr/newsletter--toulouse-dataviz-15--spcial-hackaviz-2021),
+  [ObservableHQ](https://observablehq.com/@dakoop/learn-js-data),
   libraries like [python Pandas](https://pandas.pydata.org/) or
   [Rdplyr](https://dplyr.tidyverse.org/reference/mutate-joins.html)
   or code it directly.
@@ -126,7 +126,7 @@ Cultural actions supported by private copying levy
     bibliography, nor his discography in your dataviz.
 
 This description is available as a `.csv` file
-[meta_actions-culturelles-soutenues.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_actions-culturelles-soutenues.csv).
+[meta_actions_culturelles_soutenues.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_actions_culturelles_soutenues.csv).
 
 | column name  | description                                    | type_value       | example                                                                           |
 | :----------- | :--------------------------------------------- | :--------------- | :-------------------------------------------------------------------------------- |

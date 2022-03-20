@@ -58,7 +58,7 @@ sous …”.
 
 | Fichier de données                                                                                                                     | Contenu                                                               |
 | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [`actions-culturelles-soutenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.csv) | actions culturelles soutenues par la rémunération sur la copie privée |
+| [`actions_culturelles_soutenues.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions_culturelles_soutenues.csv) | actions culturelles soutenues par la rémunération sur la copie privée |
 | [`agregation_par_organisme.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.csv)           | résumé par organisme collecteur et par type d’aide                    |
 | [`collecteurs.csv`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.csv)                                     | descriptif des organismes collecteurs                                 |
 
@@ -79,7 +79,7 @@ toutes les données.
 
 | Fichier de données                                                                                                                       | Contenu                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [`actions-culturelles-soutenues.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions-culturelles-soutenues.xlsx) | actions culturelles soutenues par la rémunération sur la copie privée |
+| [`actions_culturelles_soutenues.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/actions_culturelles_soutenues.xlsx) | actions culturelles soutenues par la rémunération sur la copie privée |
 | [`agregation_par_organisme.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/agregation_par_organisme.xlsx)           | résumé par organisme collecteur et par type d’aide                    |
 | [`collecteurs.xlsx`](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/data/collecteurs.xlsx)                                     | descriptif des organismes collecteurs                                 |
 
@@ -91,7 +91,7 @@ toutes les données.
 - Vous n’avez aucune obligation à fusionner ces fichiers : pensez
   d’abord à l’histoire que vous voulez raconter \!
 - Pour joindre deux `csv`, vous pouvez utiliser un modèle
-  [ObservableHQ](https://ressources.toulouse-dataviz.fr/newsletter--toulouse-dataviz-15--spcial-hackaviz-2021),
+  [ObservableHQ](https://observablehq.com/@dakoop/learn-js-data),
   des librairies comme [python Pandas](https://pandas.pydata.org/) ou
   [R dplyr](https://dplyr.tidyverse.org/reference/mutate-joins.html)
   ou le coder directement.
@@ -103,7 +103,7 @@ toutes les données.
 
 # Description détaillée des données
 
-## Description du fichier `actions-culturelles-soutenues.csv`
+## Description du fichier `actions_culturelles_soutenues.csv`
 
 Actions culturelles soutenues par la rémunération pour copie privée
 
@@ -121,12 +121,12 @@ Actions culturelles soutenues par la rémunération pour copie privée
     esthétique.
   - **Droit d’auteur** : ensemble des droits sur l’utilisation et à
     la diffusion d’une œuvre d’art.
-  - **Bénéficiaire** : auteur de l’œuvre d’art ou ses ayants droit :
+  - **Bénéficiaire** : auteur ou auteure de l’œuvre d’art ou ses ayants droit :
     éditeur, société de production ou héritiers
   - **Copie privée** : exception au droit d’auteur, qui permet aux
     particuliers de copier des œuvres pour leur usage privé. Une
     part du prix d’un support d’enregistrement ou d’un appareil de
-    reproduction de l’œuvre sert à rémunérer les auteurs.
+    reproduction de l’œuvre sert à rémunérer les auteurs et auteures.
 
 - Notes sur les données
 
@@ -143,7 +143,7 @@ Actions culturelles soutenues par la rémunération pour copie privée
     bibliographie, ni sa discographie dans votre dataviz.
 
 Cette description est disponible sous forme de fichier `.csv`
-[meta_actions-culturelles-soutenues.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_actions-culturelles-soutenues.csv).
+[meta_actions_culturelles_soutenues.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_actions_culturelles_soutenues.csv).
 
 | nom colonne  | description                                              | type_valeur          | exemple                                                                           |
 | :----------- | :------------------------------------------------------- | :------------------- | :-------------------------------------------------------------------------------- |
@@ -187,16 +187,16 @@ Description des organismes collecteurs
 Cette description est disponible sous forme de fichier `.csv`
 [meta_collecteurs.csv](https://github.com/ToulouseDataViz/Hackaviz2022/raw/main/meta/meta_collecteurs.csv).
 
-| colonne          | description                                          | type_valeur          | exemple                                                                                  |
-| :--------------- | :--------------------------------------------------- | :------------------- | :--------------------------------------------------------------------------------------- |
-| collecteur       | code de l’organisme collecteur sous forme d’acronyme | chaîne de caractères | SACEM                                                                                    |
-| libelle          | nom complet de l’organisme                           | chaîne de caractères | Société Des Auteurs, Compositeurs Et Éditeurs De Musique                                 |
-| œuvre            | type d’œuvre d’art couvert par l’organisme           | chaîne de caractères | Musique                                                                                  |
-| date_creation    | année de création de l’organisme                     | entier               | 1851                                                                                     |
-| membres          | artistes ou producteurs membres de l’organisme       | chaîne de caractères | arrangeur,auteur,auteur de doublage sous titrage,auteurs réalisateur,compositeur,éditeur |
-| nb_membres       | nombre de membres                                    | entier               | 182520                                                                                   |
-| nb_membres_annee | année où ce nombre de membres a été relevé           | entier               | 2021                                                                                     |
-| URL              | adresse du site Internet                             | chaîne de caractères | <https://www.sacem.fr/>                                                                  |
+| colonne          | description                                                     | type_valeur          | exemple                                                                                  |
+| :--------------- | :-------------------------------------------------------------- | :------------------- | :--------------------------------------------------------------------------------------- |
+| collecteur       | code de l’organisme collecteur sous forme d’acronyme            | chaîne de caractères | SACEM                                                                                    |
+| libelle          | nom complet de l’organisme                                      | chaîne de caractères | Société Des Auteurs, Compositeurs Et Éditeurs De Musique                                 |
+| œuvre            | type d’œuvre d’art couvert par l’organisme                      | chaîne de caractères | Musique                                                                                  |
+| date_creation    | année de création de l’organisme                                | entier               | 1851                                                                                     |
+| membres          | artistes ou producteurs et productrices, membres de l’organisme | chaîne de caractères | arrangeur,auteur,auteur de doublage sous titrage,auteurs réalisateur,compositeur,éditeur |
+| nb_membres       | nombre de membres                                               | entier               | 182520                                                                                   |
+| nb_membres_annee | année où ce nombre de membres a été relevé                      | entier               | 2021                                                                                     |
+| URL              | adresse du site Internet                                        | chaîne de caractères | <https://www.sacem.fr/>                                                                  |
 
 # Sources des données
 
@@ -219,7 +219,7 @@ Cette description est disponible sous forme de fichier `.csv`
 - Ce jeu de données est proposé par l’association Toulouse DataViz
   dans le cadre du concours Hackaviz afin de promouvoir la
   visualisation de données. Ce jeu de données est utilisé à des fins
-  pédagogiques en permettant aux participants de créer leurs
+  pédagogiques en permettant aux participants et participantes de créer leurs
   visualisations.
 
 - Les données sources proviennent d’organisations officielles qui les
