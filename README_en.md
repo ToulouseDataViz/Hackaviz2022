@@ -17,6 +17,9 @@ Not speaking english? La [version française](README.md) ici.
 ![Mimi and Eunice, [You may be
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
 Nina Paley, mars 2011](images/ME_338_YouMayBeRight2.png)
+*Mimi and Eunice, [You may be
+right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
+Nina Paley, mars 2011*
 
 We offer you a new dataset from the [AidesCreation.org](http://aidescreation.org/consultation-aides_culturelles_versees_base_actions_soutenues-1.html) site. This site provides a database about the collection and distribution of [private copying levy](https://en.wikipedia.org/wiki/Private_copying_levy) fundings done by several [copyright collecting societies or collective management organizations](https://en.wikipedia.org/wiki/Copyright_collective).
 

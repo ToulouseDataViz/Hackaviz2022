@@ -13,6 +13,9 @@ Not speaking french? Please find the [english version](README_en.md).
 ![Mimi and Eunice, [You may be
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
 Nina Paley, mars 2011](images/ME_338_YouMayBeRight2.png)
+*Mimi and Eunice, [You may be
+right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
+Nina Paley, mars 2011*
 
 Nous vous proposons dans un jeu de données inédit issu du site
 [AidesCreation.org](http://aidescreation.org/consultation-aides_culturelles_versees_base_actions_soutenues-1.html).
