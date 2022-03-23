@@ -8,14 +8,14 @@
 
 # Hackaviz 2022 : financement par la copie privée en France.
 
-Not speaking french? Please find the [english version](README_en.md).
+Not speaking french? Please find the [english version](https://github.com/ToulouseDataViz/Hackaviz2022/blob/main/README_en.md).
 
 ![Mimi and Eunice, [You may be
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
 Nina Paley, mars 2011](images/ME_338_YouMayBeRight2.png)
-*Mimi and Eunice, [You may be
+_Mimi and Eunice, [You may be
 right](https://mimiandeunice.com/2011/04/08/you-may-be-right/), CC-BY-SA
-Nina Paley, mars 2011*
+Nina Paley, mars 2011_
 
 Nous vous proposons dans un jeu de données inédit issu du site
 [AidesCreation.org](http://aidescreation.org/consultation-aides_culturelles_versees_base_actions_soutenues-1.html).
